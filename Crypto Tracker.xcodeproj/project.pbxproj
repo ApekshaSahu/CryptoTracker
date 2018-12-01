@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E7096770EB387CFFD6D7878 /* libPods-Crypto TrackerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B48E0EA4B8D04152CD7AF86 /* libPods-Crypto TrackerTests.a */; };
+		6DD0A26D0F7EA6DD1FBF2012 /* Pods_Crypto_Tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F95B379CC558CE65413AF87 /* Pods_Crypto_Tracker.framework */; };
+		DB139FD57CAA236DF89147A8 /* libPods-Crypto TrackerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D89F328718E8A1D3478C40 /* libPods-Crypto TrackerUITests.a */; };
+		FB2786D0212DB7BD00C52C0B /* SwiftChart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2786CF212DB7BD00C52C0B /* SwiftChart.framework */; };
+		FB68924B2149B67200B946B5 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB68924A2149B67200B946B5 /* AuthViewController.swift */; };
+		FB9E6219212DA69200E24D42 /* CoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9E6218212DA69200E24D42 /* CoinViewController.swift */; };
 		FBC0F7BD212B6A590076D75C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC0F7BC212B6A590076D75C /* AppDelegate.swift */; };
-		FBC0F7BF212B6A590076D75C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC0F7BE212B6A590076D75C /* ViewController.swift */; };
-		FBC0F7C2212B6A590076D75C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC0F7C0212B6A590076D75C /* Main.storyboard */; };
 		FBC0F7C5212B6A590076D75C /* Crypto_Tracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FBC0F7C3212B6A590076D75C /* Crypto_Tracker.xcdatamodeld */; };
 		FBC0F7C7212B6A5A0076D75C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBC0F7C6212B6A5A0076D75C /* Assets.xcassets */; };
 		FBC0F7CA212B6A5A0076D75C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC0F7C8212B6A5A0076D75C /* LaunchScreen.storyboard */; };
 		FBC0F7D5212B6A5A0076D75C /* Crypto_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC0F7D4212B6A5A0076D75C /* Crypto_TrackerTests.swift */; };
 		FBC0F7E0212B6A5A0076D75C /* Crypto_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC0F7DF212B6A5A0076D75C /* Crypto_TrackerUITests.swift */; };
+		FBC0F7EE212B6B000076D75C /* CryptoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC0F7ED212B6B000076D75C /* CryptoTableViewController.swift */; };
+		FBC0F7F0212B6E400076D75C /* CoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC0F7EF212B6E400076D75C /* CoinData.swift */; };
+		FBE6EF6F212C9A60003447EF /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE6EF6E212C9A60003447EF /* Alamofire.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +42,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1484378565BE2BB637E55BB6 /* Pods-Crypto TrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crypto TrackerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Crypto TrackerTests/Pods-Crypto TrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2970B86C4240FE61E3AC3416 /* Pods-Crypto Tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crypto Tracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Crypto Tracker/Pods-Crypto Tracker.debug.xcconfig"; sourceTree = "<group>"; };
+		52C4EEF6DD417122FD1518D8 /* Pods-Crypto Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crypto Tracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-Crypto Tracker/Pods-Crypto Tracker.release.xcconfig"; sourceTree = "<group>"; };
+		62D89F328718E8A1D3478C40 /* libPods-Crypto TrackerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Crypto TrackerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B48E0EA4B8D04152CD7AF86 /* libPods-Crypto TrackerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Crypto TrackerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F95B379CC558CE65413AF87 /* Pods_Crypto_Tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Crypto_Tracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3862361FC89393CB9471806 /* Pods-Crypto TrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crypto TrackerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Crypto TrackerUITests/Pods-Crypto TrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B7634263AEB9793B47997C54 /* Pods-Crypto TrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crypto TrackerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Crypto TrackerUITests/Pods-Crypto TrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D9D3B408E18B5A9173B9F1F0 /* Pods-Crypto TrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crypto TrackerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Crypto TrackerTests/Pods-Crypto TrackerTests.release.xcconfig"; sourceTree = "<group>"; };
+		FB2786CF212DB7BD00C52C0B /* SwiftChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB68924A2149B67200B946B5 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		FB9E6218212DA69200E24D42 /* CoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinViewController.swift; sourceTree = "<group>"; };
 		FBC0F7B9212B6A590076D75C /* Crypto Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crypto Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBC0F7BC212B6A590076D75C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FBC0F7BE212B6A590076D75C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FBC0F7C1212B6A590076D75C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FBC0F7C4212B6A590076D75C /* Crypto_Tracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Crypto_Tracker.xcdatamodel; sourceTree = "<group>"; };
 		FBC0F7C6212B6A5A0076D75C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBC0F7C9212B6A5A0076D75C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +66,9 @@
 		FBC0F7DB212B6A5A0076D75C /* Crypto TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crypto TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBC0F7DF212B6A5A0076D75C /* Crypto_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crypto_TrackerUITests.swift; sourceTree = "<group>"; };
 		FBC0F7E1212B6A5A0076D75C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBC0F7ED212B6B000076D75C /* CryptoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableViewController.swift; sourceTree = "<group>"; };
+		FBC0F7EF212B6E400076D75C /* CoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinData.swift; sourceTree = "<group>"; };
+		FBE6EF6E212C9A60003447EF /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB2786D0212DB7BD00C52C0B /* SwiftChart.framework in Frameworks */,
+				FBE6EF6F212C9A60003447EF /* Alamofire.framework in Frameworks */,
+				6DD0A26D0F7EA6DD1FBF2012 /* Pods_Crypto_Tracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E7096770EB387CFFD6D7878 /* libPods-Crypto TrackerTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +94,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB139FD57CAA236DF89147A8 /* libPods-Crypto TrackerUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B470E0C869A48370AB09E8C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2970B86C4240FE61E3AC3416 /* Pods-Crypto Tracker.debug.xcconfig */,
+				52C4EEF6DD417122FD1518D8 /* Pods-Crypto Tracker.release.xcconfig */,
+				1484378565BE2BB637E55BB6 /* Pods-Crypto TrackerTests.debug.xcconfig */,
+				D9D3B408E18B5A9173B9F1F0 /* Pods-Crypto TrackerTests.release.xcconfig */,
+				B7634263AEB9793B47997C54 /* Pods-Crypto TrackerUITests.debug.xcconfig */,
+				A3862361FC89393CB9471806 /* Pods-Crypto TrackerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AF8B277A2378EE20D78D4832 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB2786CF212DB7BD00C52C0B /* SwiftChart.framework */,
+				FBE6EF6E212C9A60003447EF /* Alamofire.framework */,
+				7F95B379CC558CE65413AF87 /* Pods_Crypto_Tracker.framework */,
+				7B48E0EA4B8D04152CD7AF86 /* libPods-Crypto TrackerTests.a */,
+				62D89F328718E8A1D3478C40 /* libPods-Crypto TrackerUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FBC0F7B0212B6A590076D75C = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +133,8 @@
 				FBC0F7D3212B6A5A0076D75C /* Crypto TrackerTests */,
 				FBC0F7DE212B6A5A0076D75C /* Crypto TrackerUITests */,
 				FBC0F7BA212B6A590076D75C /* Products */,
+				5B470E0C869A48370AB09E8C /* Pods */,
+				AF8B277A2378EE20D78D4832 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +152,14 @@
 			isa = PBXGroup;
 			children = (
 				FBC0F7BC212B6A590076D75C /* AppDelegate.swift */,
-				FBC0F7BE212B6A590076D75C /* ViewController.swift */,
-				FBC0F7C0212B6A590076D75C /* Main.storyboard */,
+				FB68924A2149B67200B946B5 /* AuthViewController.swift */,
+				FBC0F7ED212B6B000076D75C /* CryptoTableViewController.swift */,
 				FBC0F7C6212B6A5A0076D75C /* Assets.xcassets */,
 				FBC0F7C8212B6A5A0076D75C /* LaunchScreen.storyboard */,
 				FBC0F7CB212B6A5A0076D75C /* Info.plist */,
 				FBC0F7C3212B6A590076D75C /* Crypto_Tracker.xcdatamodeld */,
+				FBC0F7EF212B6E400076D75C /* CoinData.swift */,
+				FB9E6218212DA69200E24D42 /* CoinViewController.swift */,
 			);
 			path = "Crypto Tracker";
 			sourceTree = "<group>";
@@ -135,9 +189,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBC0F7E4212B6A5A0076D75C /* Build configuration list for PBXNativeTarget "Crypto Tracker" */;
 			buildPhases = (
+				895DCA8FAB211D80CB3F6992 /* [CP] Check Pods Manifest.lock */,
 				FBC0F7B5212B6A590076D75C /* Sources */,
 				FBC0F7B6212B6A590076D75C /* Frameworks */,
 				FBC0F7B7212B6A590076D75C /* Resources */,
+				580CFA1081F10C4F159EB4DD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +208,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBC0F7E7212B6A5A0076D75C /* Build configuration list for PBXNativeTarget "Crypto TrackerTests" */;
 			buildPhases = (
+				B3251B2E20A12384910E454B /* [CP] Check Pods Manifest.lock */,
 				FBC0F7CC212B6A5A0076D75C /* Sources */,
 				FBC0F7CD212B6A5A0076D75C /* Frameworks */,
 				FBC0F7CE212B6A5A0076D75C /* Resources */,
@@ -170,6 +227,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBC0F7EA212B6A5A0076D75C /* Build configuration list for PBXNativeTarget "Crypto TrackerUITests" */;
 			buildPhases = (
+				DBF185B4470284A59537FFC3 /* [CP] Check Pods Manifest.lock */,
 				FBC0F7D7212B6A5A0076D75C /* Sources */,
 				FBC0F7D8212B6A5A0076D75C /* Frameworks */,
 				FBC0F7D9212B6A5A0076D75C /* Resources */,
@@ -196,13 +254,16 @@
 				TargetAttributes = {
 					FBC0F7B8212B6A590076D75C = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 					FBC0F7CF212B6A5A0076D75C = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 						TestTargetID = FBC0F7B8212B6A590076D75C;
 					};
 					FBC0F7DA212B6A5A0076D75C = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 						TestTargetID = FBC0F7B8212B6A590076D75C;
 					};
 				};
@@ -234,7 +295,6 @@
 			files = (
 				FBC0F7CA212B6A5A0076D75C /* LaunchScreen.storyboard in Resources */,
 				FBC0F7C7212B6A5A0076D75C /* Assets.xcassets in Resources */,
-				FBC0F7C2212B6A590076D75C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +314,94 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		580CFA1081F10C4F159EB4DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Crypto Tracker/Pods-Crypto Tracker-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftChart/SwiftChart.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftChart.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Crypto Tracker/Pods-Crypto Tracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		895DCA8FAB211D80CB3F6992 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Crypto Tracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3251B2E20A12384910E454B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Crypto TrackerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBF185B4470284A59537FFC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Crypto TrackerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FBC0F7B5212B6A590076D75C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBC0F7F0212B6E400076D75C /* CoinData.swift in Sources */,
+				FBC0F7EE212B6B000076D75C /* CryptoTableViewController.swift in Sources */,
 				FBC0F7C5212B6A590076D75C /* Crypto_Tracker.xcdatamodeld in Sources */,
-				FBC0F7BF212B6A590076D75C /* ViewController.swift in Sources */,
 				FBC0F7BD212B6A590076D75C /* AppDelegate.swift in Sources */,
+				FB68924B2149B67200B946B5 /* AuthViewController.swift in Sources */,
+				FB9E6219212DA69200E24D42 /* CoinViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +437,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FBC0F7C0212B6A590076D75C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FBC0F7C1212B6A590076D75C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FBC0F7C8212B6A5A0076D75C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,42 +564,45 @@
 		};
 		FBC0F7E5212B6A5A0076D75C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2970B86C4240FE61E3AC3416 /* Pods-Crypto Tracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QCTS28BJ32;
+				DEVELOPMENT_TEAM = 87RL6R8353;
 				INFOPLIST_FILE = "Crypto Tracker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ManishGiri.NewApp.Crypto-Tracker";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ApekshaSahu.NewApp.Crypto-Tracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		FBC0F7E6212B6A5A0076D75C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52C4EEF6DD417122FD1518D8 /* Pods-Crypto Tracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QCTS28BJ32;
+				DEVELOPMENT_TEAM = 87RL6R8353;
 				INFOPLIST_FILE = "Crypto Tracker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ManishGiri.NewApp.Crypto-Tracker";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ApekshaSahu.NewApp.Crypto-Tracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		FBC0F7E8212B6A5A0076D75C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1484378565BE2BB637E55BB6 /* Pods-Crypto TrackerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -481,7 +616,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ManishGiri.NewApp.Crypto-TrackerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crypto Tracker.app/Crypto Tracker";
 			};
@@ -489,6 +624,7 @@
 		};
 		FBC0F7E9212B6A5A0076D75C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9D3B408E18B5A9173B9F1F0 /* Pods-Crypto TrackerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,7 +638,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ManishGiri.NewApp.Crypto-TrackerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crypto Tracker.app/Crypto Tracker";
 			};
@@ -510,6 +646,7 @@
 		};
 		FBC0F7EB212B6A5A0076D75C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7634263AEB9793B47997C54 /* Pods-Crypto TrackerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,7 +659,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ManishGiri.NewApp.Crypto-TrackerUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Crypto Tracker";
 			};
@@ -530,6 +667,7 @@
 		};
 		FBC0F7EC212B6A5A0076D75C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3862361FC89393CB9471806 /* Pods-Crypto TrackerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -542,7 +680,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ManishGiri.NewApp.Crypto-TrackerUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Crypto Tracker";
 			};
